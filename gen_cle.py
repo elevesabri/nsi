@@ -8,7 +8,7 @@ base_url = 'https://api.twitter.com/'
 
 # (2) Auth (conversion en base64 obligatoire) (api key:secret)
 
-connexion = base64.b64encode("TFHorDV4UnTP3G1B7BMmjtCVr:mpMYRKyJkUKd8RcyJAaqqkW5otifXLi0SaU9paPwh8rRB0nL9c".encode("ascii")).decode("ascii")
+connexion = base64.b64encode("CLE API".encode("ascii")).decode("ascii")
 
 auth_url = '{}oauth2/token'.format(base_url)
 
